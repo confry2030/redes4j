@@ -35,6 +35,19 @@
             border-radius: 8px;
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
+        img {
+            display: block;
+            margin: 15px auto;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
     </style>
 </head>
 
@@ -44,129 +57,143 @@
 
 <section>
     <h2>Origen de las Redes</h2>
-    <p>
-        Las redes de computadoras surgieron en la década de 1960 con el objetivo de compartir información
-        y recursos entre computadoras. Uno de los primeros proyectos fue ARPANET, creado para conectar
-        universidades y centros de investigación. Con el tiempo, estas redes evolucionaron hasta convertirse
-        en el Internet que conocemos hoy.
-    </p>
+    <table>
+        <tr>
+            <td>
+                <p>Las redes de computadoras surgieron en la década de 1960 con el objetivo de compartir información
+                y recursos entre computadoras. Uno de los primeros proyectos fue ARPANET.</p>
+            </td>
+            <td>
+                <img src="image/org.jpeg">
+            </td>
+        </tr>
+    </table>
 </section>
 
 <section>
     <h2>Definición de Red</h2>
-    <p>
-        Una red de computadoras es un conjunto de dispositivos conectados entre sí con el propósito
-        de compartir información, archivos, recursos y servicios como impresoras o acceso a Internet.
-    </p>
+    <table>
+        <tr>
+            <td>
+                <p>Una red de computadoras es un conjunto de dispositivos conectados entre sí para compartir información y recursos.</p>
+            </td>
+            <td>
+                <img src="image/def.jfif">
+            </td>
+        </tr>
+    </table>
 </section>
 
 <section>
     <h2>Tipos de Redes</h2>
+    <table>
+        <tr>
+            <td>
+                <h3>PAN</h3>
+                <p>Red personal de corto alcance.</p>
 
-    <h3>PAN (Personal Area Network)</h3>
-    <p>Red de corto alcance que conecta dispositivos personales como celulares, audífonos o relojes inteligentes.</p>
+                <h3>LAN</h3>
+                <p>Red local en casas u oficinas.</p>
 
-    <h3>LAN (Local Area Network)</h3>
-    <p>Red local que conecta computadoras dentro de un área pequeña, como una casa, escuela u oficina.</p>
+                <h3>MAN</h3>
+                <p>Red que cubre ciudades.</p>
 
-    <h3>MAN (Metropolitan Area Network)</h3>
-    <p>Red que cubre una ciudad o zona urbana, conectando varias redes LAN.</p>
-
-    <h3>WAN (Wide Area Network)</h3>
-    <p>Red de gran alcance que puede cubrir países o continentes, como Internet.</p>
+                <h3>WAN</h3>
+                <p>Red de gran alcance como Internet.</p>
+            </td>
+            <td>
+                <img src="image/tipos.png">
+            </td>
+        </tr>
+    </table>
 </section>
 
 <section>
     <h2>Modelos de Comunicación</h2>
+    <table>
+        <tr>
+            <td>
+                <h3>Cliente-Servidor</h3>
+                <p>Un cliente solicita y un servidor responde.</p>
 
-    <h3>Cliente - Servidor</h3>
-    <p>
-        Un dispositivo (cliente) solicita información y otro (servidor) la proporciona.
-        Ejemplo: un navegador web accediendo a una página.
-    </p>
-
-    <h3>Cliente - Cliente (P2P)</h3>
-    <p>
-        Todos los dispositivos pueden actuar como clientes y servidores al mismo tiempo,
-        compartiendo información directamente.
-    </p>
+                <h3>P2P</h3>
+                <p>Todos los equipos comparten recursos directamente.</p>
+            </td>
+        </tr>
+    </table>
 </section>
 
 <section>
     <h2>Topologías de Red</h2>
-
-    <h3>Bus</h3>
-    <p>Todos los dispositivos se conectan a un solo cable principal.</p>
-
-    <h3>Punto a Punto (P2P)</h3>
-    <p>Conexión directa entre dos dispositivos.</p>
-
-    <h3>Estrella</h3>
-    <p>Todos los dispositivos se conectan a un dispositivo central como un switch.</p>
-
-    <h3>Anillo</h3>
-    <p>Los dispositivos se conectan formando un círculo.</p>
-
-    <h3>Malla</h3>
-    <p>Cada dispositivo está conectado con varios otros, ofreciendo alta seguridad.</p>
-
-    <h3>Árbol</h3>
-    <p>Combina varias topologías en forma jerárquica.</p>
-
-    <h3>Mixta</h3>
-    <p>Combinación de diferentes topologías en una sola red.</p>
+    <table>
+        <tr>
+            <td>
+                <p><strong>Bus:</strong> Un solo cable.</p>
+                <p><strong>Estrella:</strong> Nodo central.</p>
+                <p><strong>Anillo:</strong> Forma circular.</p>
+                <p><strong>Malla:</strong> Conexión múltiple.</p>
+            </td>
+            <td>
+                <img src="image/topologias.png">
+            </td>
+        </tr>
+    </table>
 </section>
 
 <section>
     <h2>Medios de Conexión</h2>
+    <table>
+        <tr>
+            <td>
+                <h3>Alámbricos</h3>
+                <ul>
+                    <li>UTP</li>
+                    <li>Fibra óptica</li>
+                </ul>
 
-    <h3>Medios Guiados (Alámbricos)</h3>
-    <ul>
-        <li>Cable coaxial</li>
-        <li>UTP (par trenzado)</li>
-        <li>STP (par trenzado blindado)</li>
-        <li>Fibra óptica</li>
-    </ul>
-
-    <h3>Medios No Guiados (Inalámbricos)</h3>
-    <ul>
-        <li>Infrarrojo</li>
-        <li>Wi-Fi</li>
-        <li>Satélite</li>
-        <li>Microondas</li>
-        <li>Bluetooth</li>
-    </ul>
+                <h3>Inalámbricos</h3>
+                <ul>
+                    <li>Wi-Fi</li>
+                    <li>Bluetooth</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 </section>
 
 <section>
-    <h2>Dispositivos de Interconexión</h2>
-
-    <ul>
-        <li><strong>Hub:</strong> Envía la información a todos los dispositivos conectados.</li>
-        <li><strong>Switch:</strong> Envía la información solo al dispositivo correcto.</li>
-        <li><strong>Router:</strong> Conecta diferentes redes entre sí.</li>
-        <li><strong>Bridge:</strong> Une dos redes similares.</li>
-        <li><strong>Repetidor:</strong> Amplifica la señal para mayor alcance.</li>
-        <li><strong>Transceptor:</strong> Envía y recibe señales de red.</li>
-    </ul>
+    <h2>Dispositivos</h2>
+    <table>
+        <tr>
+            <td>
+                <ul>
+                    <li>Hub</li>
+                    <li>Switch</li>
+                    <li>Router</li>
+                    <li>Bridge</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 </section>
 
 <section>
     <h2>Modelo OSI</h2>
-    <p>
-        El modelo OSI es un modelo de referencia que explica cómo se comunican las redes
-        mediante 7 capas:
-    </p>
-
-    <ol>
-        <li>Física</li>
-        <li>Enlace de datos</li>
-        <li>Red</li>
-        <li>Transporte</li>
-        <li>Sesión</li>
-        <li>Presentación</li>
-        <li>Aplicación</li>
-    </ol>
+    <table>
+        <tr>
+            <td>
+                <ol>
+                    <li>Física</li>
+                    <li>Enlace</li>
+                    <li>Red</li>
+                    <li>Transporte</li>
+                    <li>Sesión</li>
+                    <li>Presentación</li>
+                    <li>Aplicación</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
 </section>
 
 </body>
